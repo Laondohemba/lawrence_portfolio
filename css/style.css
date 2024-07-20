@@ -13,6 +13,7 @@
 *{
     font-family: Merriweather, Poppins, Roboto;
     font-size: .9rem;
+    margin-top: 0;
 }
 .whole_page{
     background-color: hsl(0, 3%, 18%, .2);
@@ -44,6 +45,10 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+.head {
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width:700px) {
