@@ -50,6 +50,10 @@
     margin: 0;
     padding: 0;
 }
+.btn_color {
+    background-color: rgb(23, 0, 46) !important;
+    color: #fff !important;
+}
 
 @media (max-width:700px) {
     .x-small {
