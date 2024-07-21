@@ -92,7 +92,7 @@
 
         <div class="row">
             <!-- social links -->
-            <div class="col-md-6">
+            <div class="col-md-6 social_links">
                 <!-- linkedin -->
                 <div class="d-flex align-items-center justify-content-center">
                     <span class="linkedin">
@@ -115,10 +115,17 @@
                     <a href="https://wa.me/+2348160200828" class="btn btn_color" target="_blank">Message on WhatsApp</a>
                 </div>
             </div>
+            <div class="col-md-6 d-md-none mt-3">
+                <div class="line_cont">
+                    <div class="line"></div>
+                    <div class="word">or</div>
+                    <div class="line"></div>
+                </div>
+            </div>
             <!-- contact form -->
-            <div class="col-md-6 mb-5">
+            <div class="col-md-6 mt-3 mb-5">
 
-                <h5>Or send a message</h5>
+                <h5 class="h5_message">Or send a message</h5>
                 <div class="text-start p-3">
                     
                     <label for="subject" class="form-label mb-0">Subject:</label>
@@ -129,7 +136,7 @@
 
                 </div>
                 
-                <button class="btn btn_color">Send</button>
+                <button class="btn btn_color" id="send">Send</button>
             </div>
         </div>
      </div>
@@ -137,5 +144,6 @@
     
 
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

@@ -68,6 +68,25 @@
     font-size: 40px;
     margin-right: 10px;
 }
+.h5_message {
+    margin-bottom: -10px;
+}
+.line_cont {
+    width: 93%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -15px;
+  }
+  .line_cont .word {
+    margin: 0 13px;
+    color: rgb(23, 0, 46);
+  }
+  .line {
+    height: 1px;
+    width: 44%;
+    background-color: rgb(23, 0, 46);
+  }
 @media (max-width:700px) {
     .x-small {
         max-width: 80%;
@@ -81,7 +100,12 @@
     .sections li a {
         margin: 0 10px;
     }
-
+    .social_links a {
+        font-size: .6rem;
+    }
+    .linkedin, .github, .whatsapp {
+        font-size: 25px;
+    }
 }
 @media (min-width:700px){
    .head {
