@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="icon" href="./images/lawrence_aondohemba.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="whole_page">
@@ -30,7 +31,7 @@
     <!-- banner and Title section -->
     <div class="container-sm">
         <div class="banner">
-            <img src="./images/LAWRENCE_A_LINKEDIN_COVER.png" alt="lawrence linkedin banner" class="img-fluid">
+            <img src="./images/LAWRENCE_A_COVER.png" alt="lawrence linkedin banner" class="img-fluid">
             <div class="img_cont">
                 <img src="./images/lawrence_aondohemba.png" alt="lawrence aondohemba" class="img-fluid">
             </div>
@@ -46,6 +47,7 @@
       <!-- projects -->
     <div class="x-small container text-center" id="projects">
         <h3>Recent Projects</h3>
+        <p>Project repos are available upon request</p>
         <!-- add 3 projects in a row i.e 3 cols-->
         <div class="row">
             <!-- first project -->
@@ -54,8 +56,7 @@
                     <img src="./images/lawrence_to_do_app.jpg" class="card-img-top" alt="lawrence_to_do_list_app">
                     <div class="card-body">
                       <h5 class="card-title">Simple to do list app</h5>
-                      <p class="card-text">This is a simple to do list app built with HTML5, CSS and JavaScript. It allows the user to add, delete, and cross items as they desire.</p>
-                      <a href="https://laondohemba.github.io/to-do-list/" target="_blank" class="btn btn_color">View App</a>
+                      <p class="card-text">This is a simple to do list app built with HTML5, CSS and JavaScript. It allows the user to add, delete, and cross items as they desire. Even though no database is used for the app's storage, it's content is always available even after the browser is refreshed.</p>
                     </div>
                   </div>
             </div>
@@ -85,8 +86,52 @@
         </div>
     </div>
     <!-- contact details -->
-     <div class="x-small container text-center my-4" id="contact">
+     <div class="x-small container text-center mt-4 mb-0" id="contact">
         <h3>Contact Details</h3>
+        <p>You can reach Lawrence through the following:</p>
+
+        <div class="row">
+            <!-- social links -->
+            <div class="col-md-6">
+                <!-- linkedin -->
+                <div class="d-flex align-items-center justify-content-center">
+                    <span class="linkedin">
+                        <i class="fa fa-linkedin-square"></i>
+                    </span>
+                    <a href="https://www.linkedin.com/in/luper-aondohemba/" target="_blank" class="btn btn_color">Check LinkedIn Profile</a>
+                </div>
+                <!-- github -->
+                <div class="d-flex align-items-center justify-content-center">
+                    <span class="github">
+                        <i class="fa fa-github"></i>
+                    </span>
+                    <a href="https://github.com/Laondohemba" class="btn btn_color" target="_blank">Look up on Github</a>
+                </div>
+                <!-- whatsapp -->
+                <div class="d-flex align-items-center justify-content-center">
+                    <span class="whatsapp">
+                        <i class="fa fa-whatsapp"></i>
+                    </span>
+                    <a href="https://wa.me/+2348160200828" class="btn btn_color" target="_blank">Message on WhatsApp</a>
+                </div>
+            </div>
+            <!-- contact form -->
+            <div class="col-md-6 mb-5">
+
+                <h5>Or send a message</h5>
+                <div class="text-start p-3">
+                    
+                    <label for="subject" class="form-label mb-0">Subject:</label>
+                    <input type="text" placeholder="subject" class="form-control mb-3">
+
+                    <label for="message" class="form-label mb-0">Message:</label>
+                    <textarea name="message" id="message" rows="4" class="form-control"></textarea>
+
+                </div>
+                
+                <button class="btn btn_color">Send</button>
+            </div>
+        </div>
      </div>
     </div>
     
