@@ -87,6 +87,9 @@
     width: 44%;
     background-color: rgb(23, 0, 46);
   }
+.modal_text {
+    color: rgb(23, 0, 46);
+}
 @media (max-width:700px) {
     .x-small {
         max-width: 80%;
